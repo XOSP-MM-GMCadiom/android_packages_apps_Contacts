@@ -17,34 +17,25 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name used in Settings/Apps. Default label for activities
          that don't specify a label. -->
-  <string name="applicationLabel">Contautos</string>
   <!-- Title for the activity that launches Contacts.  This is the name
          used in the Launcher icon. -->
-  <string name="launcherActivityLabel">Contautos</string>
   <!-- Directory partition name -->
-  <string name="contactsList">Contautos</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutContact">Contautu</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutDialContact">Marcación direuta</string>
   <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-  <string name="shortcutMessageContact">Mensaxe direutu</string>
   <!-- Activity title when the user is selecting a contact for a shortcut. -->
-  <string name="shortcutActivityTitle">Escoyer un atayu pal contautu</string>
   <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
   <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
   <!-- Activity title when the user is inserting into an existing contact, or creating a new one.  [CHAR LIMIT=128] -->
-  <string name="contactInsertOrEditActivityTitle">Amestar al contautu</string>
   <!-- Activity title when the user is selecting a contact.  [CHAR LIMIT=128] -->
   <!-- Entry that prompts user to select a newly created contact.  [CHAR LIMIT=30] -->
   <!-- Title for the activity that shows only starred contacts -->
   <!-- Title for the activity that shows only frequently contacted contacts -->
   <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
          contacts. -->
-  <string name="strequentList">Favoritos</string>
   <!-- The title bar when viewing the contact details activity -->
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          editing a contact. This string represents the built in way to edit the contact. -->
@@ -55,7 +46,6 @@
   <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          creating a new group. This string represents the built in way to create the group. [CHAR LIMIT=NONE] -->
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailAbout">Tocante a</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
   <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
   <!-- Menu item used to view the details for a specific contact -->
@@ -71,16 +61,13 @@
   <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
   <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
   <!-- Menu item that edits the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_editGroup">Editar</string>
   <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_deleteGroup">Desaniciar</string>
   <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
   <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=30] -->
   <!-- Title of the confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=26] -->
   <!-- Confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=NONE] -->
   <!-- Menu item that joins an aggregate with another aggregate -->
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Guardar</string>
   <!-- Heading of the Join Contact screen -->
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
   <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
@@ -89,7 +76,6 @@
   <!-- Toast shown after two contacts have been joined by a user action. [CHAR LIMIT=NONE] -->
   <!-- Toast shown after contacts that the user has selected are deleted by a user action. [CHAR LIMIT=NONE] -->
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
-  <string name="menu_set_ring_tone">Afitar timbre</string>
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=30] -->
   <!-- Warning dialog contents after users selects to delete a ReadOnly contact. [CHAR LIMIT=NONE] -->
   <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
@@ -136,7 +122,6 @@
   <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
   <!-- The title of "all contacts" tab. [CHAR LIMIT=14] -->
   <!-- The title of "favorites" tab. [CHAR LIMIT=14] -->
-  <string name="favorites_tab_label">Favoritos</string>
   <!-- Action string for calling back a number in the call log -->
   <!-- Action string for calling a number in the call log again -->
   <!-- Action string for returning a missed call in the call log -->
@@ -176,7 +161,6 @@
   <!-- String describing which account a contact came from when editing it -->
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
   <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
-  <string name="group_read_only">Nun pue editase nesti preséu.</string>
   <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
   <!-- An option in the 'Contact photo' dialog, if there is already a photo [CHAR LIMIT=50] -->
   <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
@@ -212,9 +196,7 @@
   <!-- The description of the directory where the contact was found [CHAR LIMIT=100]-->
   <!-- Contact list filter indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
-  <string name="activity_title_settings">Axustes</string>
   <!-- Menu item for the settings activity [CHAR LIMIT=64] -->
-  <string name="menu_settings" msgid="377929915873428211">Axustes</string>
   <!-- Menu item for invoking contextual Help & Feedback [CHAR LIMIT=64] -->
   <!-- The preference section title for contact display options [CHAR LIMIT=128] -->
   <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
@@ -278,7 +260,6 @@
   <!-- Button Label to see all on an ExpandingEntryCardView [CHAR LIMIT=40] -->
   <!-- Title of recent card. [CHAR LIMIT=60] -->
   <!-- Title of recent card. [CHAR LIMIT=40] -->
-  <string name="about_card_title">Tocante a</string>
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
@@ -299,7 +280,6 @@
   <!-- Header for the Event entry [CHAR LIMIT=40] -->
   <!-- Header for the Relation entry [CHAR LIMIT=40] -->
   <!-- Content description for the account field header image. Example accounts listed in this field: Google, Hotmail and Exchange. [CHAR LIMIT=NONE] -->
-  <string name="header_account_entry">Cuenta</string>
   <!-- Content description for the name fields header entry [CHAR LIMIT=NONE] -->
   <!-- Content description for the email fields header entry [CHAR LIMIT=NONE] -->
   <!-- Content description for the phone fields header entry [CHAR LIMIT=NONE] -->
@@ -316,7 +296,6 @@
   <!-- File Authority for the photo picker -->
   <!-- When a user tries to create an IM Hangouts field, an alert dialog pops up displaying this message. We don't want users entering email addresses of phone numbers into the IM field. [CHAR LIMIT=200] -->
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
-  <string name="compact_editor_more_fields">Más campos</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
   <!-- Quick contact display name with phonetic name -->
 </resources>
